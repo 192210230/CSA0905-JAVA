@@ -1,0 +1,31 @@
+import java.util.*;
+
+class Leapyear {
+
+public static void main(String args[]) {
+
+Scanner s = new Scanner(System.in);
+
+string date;
+
+System.out.println("Enter Date : ");
+
+date = s.nextLine();
+
+int year = Integer.parseInt(date.split("/")[2]);
+
+boolean LeapYear = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+
+if (LeapYear) {
+
+System.out.println("Leap Year");
+
+} else {
+
+System.out.println("Non-Leap Year");
+
+        }
+
+    }
+
+}
