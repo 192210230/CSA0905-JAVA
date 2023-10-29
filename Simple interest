@@ -1,0 +1,43 @@
+import java.util.*;
+
+
+
+class SimpleInterest {
+
+public static void main(String args[]) {
+
+ Scanner s = new Scanner(System.in);
+
+double principal,rate,interest;
+
+int time;
+
+System.out.print("Enter the principal amount: ");
+
+ principal = s.nextDouble();
+
+  System.out.print("Enter time: ");
+
+  time = s.nextInt();
+
+  System.out.print("Is the customer a senior citizen (y/n): ");
+
+char isSenior = scanner.next().charAt(0);
+
+if (isSenior == 'y' || isSenior == 'Y') {
+
+rate = 0.12;  // 12% interest rate for senior citizens
+
+ } else {
+
+ rate = 0.10;  // 10% interest rate for all other customers
+
+ }
+
+interest = principal * rate * time;
+
+System.out.println("Interest: " + interest) ;
+
+    }
+
+}
