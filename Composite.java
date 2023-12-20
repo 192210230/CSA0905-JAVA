@@ -2,6 +2,7 @@ import java.util.*;
 class Composite{
 	public static void main(String args[])
 	{
+		
 		int a,b,comp;
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the lower bound ::");
