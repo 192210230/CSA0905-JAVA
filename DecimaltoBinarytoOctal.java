@@ -3,7 +3,8 @@ class DecimaltoBinary
 {
  public static void main(String args[])
  {
-	Scanner s=new Scanner(System.in);
+	
+	 Scanner s=new Scanner(System.in);
  	int n,res=0,res1=0,r,r2,r3,i=0,j=0,n1;
 	System.out.println("Enter n value");
    	n=s.nextInt();
